@@ -71,9 +71,6 @@ for (let names in map){
 return result.sort((authorA, authorB) => authorB.count - authorA.count)
 .slice(0, 5)
 }
-
-
-console.log(getMostPopularAuthors(books, authors))
 module.exports = {
   getTotalBooksCount,
   getTotalAccountsCount,
